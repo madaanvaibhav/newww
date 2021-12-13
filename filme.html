@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Vaibhav Blògg</title>
+    <link rel="shortcut icon" href="https:everythin.me/images/spyware.png"
+          type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <script type="text/javascript" src="js/js_Home.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="nav-principal">
+        <div class="intens-nav-links">
+            <a class="link-nav" href="/index.html">Home</a>
+            <a class="link-nav" href="/movies.html">Movies</a>
+            <a class="link-nav" href="/filme.html">Web Series</a>
+            <a class="link-nav" href="/whoami.html">WHOAMI</a>
+        </div>
+    </nav>
+
+    <div align="center" id="TodosFilmes">
+        <h1 class="heading-secundary" style="margin-top: 30px">Web Series</h1>
+        <div class="filmes-novos">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQcEazg1RHMebusfpj_3nR8f-d_CgNLxAc0Wm9foVDza9M4hKcf" alt="Filme 1" class="cartazes-filmes" onClick="CarregaFilme(1)" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUOnXKnRL0jeo6y4_Nzt0RggJHYbxI_RjJUgCvmdG28BAwpAx" alt="Filme 2" class="cartazes-filmes" onClick="CarregaFilme(2)" />
+            <img src="https://m.media-amazon.com/images/M/MV5BNWU1NDA3OGMtOTk1Yi00ODAwLTg1OWMtMDJkMmIzOGJjNGUwXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1080_.jpg" alt="Filme 3" class="cartazes-filmes" onClick="CarregaFilme(3)" />
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTFCumqCVMfau0D5190VoNjQnaibQoc-ksyHQhYA5uiboLYCglm" alt="Filme 4" class="cartazes-filmes" onClick="CarregaFilme(4)" />
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/d9/Kota_Factory_poster.jpg" alt="Filme 5" class="cartazes-filmes" onClick="CarregaFilme(5)" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNkSaitWEQ4ce_DuuSRXP2B1kAwXADSQ7c7B6zzGBTgyQlMgoM" alt="Filme 6" class="cartazes-filmes" onClick="CarregaFilme(6)" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKsquj5m5yhelBaw8qTuwVTKb7gInstdA5BJj1331iq0UXmWPu" alt="Filme 7" class="cartazes-filmes" onClick="CarregaFilme(7)" />
+            <!--<img src="img/filme8.jpg" alt="Filme 8" class="cartazes-filmes" onClick="CarregaFilme(8)" />-->
+        </div>
+    </div>
+
+    <header class="header-filme" id="capaFilme">
+             
+        <div align="left" class="conteudo-filme">
+            <h2 class="heading-secundary-quiz" id="TituloFilme"></h2>
+            <p class="descricao" id="ResumoFilme"></p><br>
+            <div class="bitoon"><a href="/form.html" class="btn btn-white">What do you want to Watch</a></div>
+            <style>
+                .bitoon{
+                    text-align: center;
+                    margin-top: 8%;
+                }
+            </style>
+            <p class="descricao" style="font-weight: bold;" id="DataFilme"></p>
+            <p class="descricao" style="font-weight: bold;" id="EstrelasFilme"></p>
+        </div>
+    </header>
+    <div align="center">
+        <h2 class="heading-secundary-conteudo" id="textTrailer"></h2>
+        <iframe frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="video" id="TrailerFilme"></iframe>
+    </div>
+    <div class="pudina">
+        <h1 class="heading-peheli">
+            Vaibhav
+        </h1>
+        <h2 class="heading-dusri">
+            Blògg
+        </h2>
+        <style>
+        .pudina {
+            
+            
+            
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .heading-peheli {
+    z-index: 0;
+    margin-left: 80%;
+    text-shadow: 0rem 1rem 2rem rgb(0, 0, 0, .2);
+    text-transform: uppercase;
+    font-size: 170px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #C04848, #BD3F32);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.heading-dusri {
+    margin-top: -90px;
+    margin-left: 80%;
+    text-shadow: 0rem 1rem 2rem rgb(0, 0, 0, .2);
+    font-size: 50px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom, #304352, #d7d2cc);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+        
+        
+        
+        </style>
+    </div>
+</body>
+
+</html>
