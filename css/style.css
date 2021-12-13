@@ -195,6 +195,12 @@ body {
     font-size: 22px;
 }
 
+.btn-page2 {
+    background-color: blueviolet;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
 .btn:link,
 .btn:visited {
     margin-top: 50px;
